@@ -164,6 +164,38 @@
 }
 
 
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Ajuste a margem conforme necessário */
+}
+
+.contact-button {
+  padding: 12px 30px; /* Reduzido o padding para ajustar o espaçamento */
+  background-color: #D80D44; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none;
+  border-radius: 50px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho do texto ajustado */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  transition: all 0.3s ease; /* Transição suave */
+}
+
+.contact-button:hover {
+  background-color: #b90b3a; /* Tom mais escuro no hover */
+  box-shadow: 0px 12px 18px rgba(0, 0, 0, 0.2); /* Sombra mais forte no hover */
+  transform: translateY(-2px); /* Leve elevação no hover */
+}
+
+.contact-button:active {
+  transform: translateY(0); /* Suaviza o clique */
+}
 
 
 
